@@ -1,2 +1,1 @@
-How to run:
-> python logistic_regression.py 
+This repo contains machine learning models. 
