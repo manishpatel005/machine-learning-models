@@ -46,7 +46,7 @@ def training_step(inputs, targets, alpha=0.1):
 
 def regression_boundary(W, b):
     # w0x1 + w1x2 + b = 0.5 is the equation of regression line
-    x = np.linspace(-10, 10, 200)
+    x = np.linspace(-6, 6, 100)
     y = x * W[0]+ b
     return (x, y)
 
